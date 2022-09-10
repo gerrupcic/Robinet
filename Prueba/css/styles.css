@@ -126,6 +126,7 @@ button:hover{
 #footer{
     display: flex;
     padding-top: 40px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.082), white);
     
 }
 #productosVenta .container{
@@ -208,6 +209,15 @@ button:hover{
   }
   .map{
     padding-left: 5% auto;
+  }
+
+  .mainShowcase img{
+    filter:grayscale(100%);
+    transition: all 2s;
+  }
+
+  .mainShowcase img:hover{
+    filter: none;
   }
 
   .contenedorIndex{
